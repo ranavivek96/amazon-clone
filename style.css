@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+/* Amazon Top Navigation bar (Header)  */
+
+/* Navigation bar */
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Amazon Logo */
+.nav-logo {
+    height: 50px;
+    width: 130px;
+}
+
+.logo {
+    background-image: url("Images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 130px;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+/* Location Tag 1st and 2nd line  */
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* Search bar  */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: orange;
+    color: #0f1111;
+}
+
+
+/* Language Selection */
+.nav-language {
+    display: flex;
+    height: 1.5rem;
+    border: #cccccc;
+}
+
+.language-select {
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;    
+    border-radius: 4px;
+}
+
+/* Account Login tab with retuns */
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Cart Details Tag */
+.nav-cart i{            /* For icon */
+    font-size: 30px;
+}
+ 
+.nav-cart {             /* For text */
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
