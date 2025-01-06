@@ -167,3 +167,30 @@ span {
 .panel-deals:hover {
     border: 2px solid white;
 }
+
+/* Amazon Hero section */
+
+.hero-section {
+    background-image: url("Images/Toys.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message {
+    background-color: #cccccc;
+    color: black;
+    height: 40px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+}
