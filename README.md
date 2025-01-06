@@ -1,1 +1,1 @@
-# Make Amazon clone using HTML and CSS
+# Make Amazon Clone using HTML and CSS 
