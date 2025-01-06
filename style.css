@@ -130,3 +130,40 @@ span {
     font-weight: 700;
 }
 
+/* Amazon Second Panel Section */
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all:hover {
+    border: 2px solid white;
+}
+
+.panel-ops p {
+    display: inline;
+    color: white;
+    margin-left: 15px;
+}
+
+.panel-ops p:hover{
+    border: 2px solid white;
+}
+
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.panel-deals:hover {
+    border: 2px solid white;
+}
