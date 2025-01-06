@@ -229,3 +229,34 @@ a {
 .box-content p {
     color: #007185;
 }
+
+/* Amazon Sign-in Section */
+#text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    padding: 0px 10px 0px 11px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: orange;
+    border-radius: 50px;
+    height: 30px;
+    width: 200px;
+    border: none;
+    font-size: 0.85rem;
+}
+
+#text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-top: 7px;
+}
